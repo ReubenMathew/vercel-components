@@ -40,6 +40,10 @@ module.exports = {
       fontFamily: {
         akronim: ['Akronim', 'cursive'],
       },
+      padding: {
+        '1/3': '0.1rem',
+
+      }
     },
   },
   variants: {},
