@@ -1,19 +1,16 @@
 {
-  "name": "vercel-components",
-  "version": "1.0.0",
-  "description": "My super Nuxt.js project",
-  "author": "Reuben Ninan",
+  "name": "test",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
-  },
-  "devDependencies": {
-    "@nuxtjs/tailwindcss": "^1.0.0"
+    "next": "9.4.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "tailwindcss": "^1.4.6"
   }
 }
