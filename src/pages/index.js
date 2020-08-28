@@ -4,6 +4,7 @@ import Badge from '../components/Badge'
 import StatusDot from '../components/StatusDot'
 
 function Home(){
+  
   return (
     <div>
       <Head>
@@ -14,7 +15,7 @@ function Home(){
       <Badge text="Updated" type="warning"/>
       <StatusDot color="cyan" label="Queued" ></StatusDot>
     </div>
-  )
+  );
 
 }
 
